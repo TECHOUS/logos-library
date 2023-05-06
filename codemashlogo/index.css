@@ -1,0 +1,43 @@
+:root {
+    --manga: #e5e1e6;
+    --void: #170f1e;
+    --spark: #ffe27d;
+    --surf: #64e3ff;
+    --psybeam: #9092ff;
+    --giga: #b4ff39;
+}
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.logo-div {
+    margin: 50px;
+}
+
+.logo1 {
+    background-color: var(--giga);
+    color: var(--void);
+    font-size: 40px;
+    padding: 30px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.logo2 {
+    background-color: var(--void);
+    color: var(--manga);
+    font-size: 40px;
+    padding: 30px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.logo3 {
+    font-size: 40px;
+    padding: 30px;
+    font-weight: bold;
+    width: 300px;
+}
